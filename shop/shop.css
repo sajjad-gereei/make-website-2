@@ -1,0 +1,398 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: rgb(23, 0, 35);
+  }
+  
+  nav {
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 1rem;
+    background-color: rgb(55, 0, 118);
+    height: 3rem;
+    position: sticky;
+    top: 0.01rem;
+    z-index: 999;
+  }
+  
+  a {
+    color: aliceblue;
+    text-decoration: none;
+    transition: all linear 0.2s;
+    margin-right: 1rem;
+    padding: 0.4rem;
+  }
+  
+  a:hover {
+    background-color: rgb(66, 0, 96);
+  
+    border-radius: 20px;
+  }
+  
+  h2 {
+    position: absolute;
+    color: rgb(65, 0, 0);
+    right: 48%;
+  }
+  
+  .logo {
+    width: 6vh;
+    max-height: 3rem;
+    position: absolute;
+    left: 0.5rem;
+    border-radius: 9px;
+  }
+  
+  @media (max-width: 600px) {
+    nav {
+      height: 12rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      gap: 0rem;
+      position: relative;
+    }
+    .logo {
+      display: none;
+    }
+    a {
+      margin-top: 2rem;
+      gap: 0rem;
+      background-color: rgb(48, 1, 84);
+      border-radius: 10px;
+    }
+    h2 {
+      right: 44%;
+      top: 0.1rem;
+    }
+  }
+  
+  @media (max-width: 500px) {
+    h2 {
+      right: 43%;
+    }
+  }
+  @media (min-width:1800px) {
+    .logo{
+      width: 2.5rem;
+      max-height: 2.5rem;
+    }
+  }
+
+/* ________________________________________________________________________ */
+
+.h1s{
+    font-family: "Kanit", serif;
+    display: flex;
+    justify-content: center;
+    color: azure;
+    background-color: rgb(0, 0, 0);
+    max-width: 400px;
+    margin:auto;
+    margin-top: 3rem;
+    border-radius: 15px;
+}
+
+.cards1{
+    margin-top: 4rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.cards2{
+    margin-top: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.card{
+    background-color: rgb(53, 0, 0);
+    height: 350px;
+    width: 250px;
+    border-radius: 10px;
+    position: relative;
+    margin: 1rem 2rem;
+}
+
+
+
+/* _______________ */
+
+
+
+.card-1 img{
+    position: absolute;
+    width: 80%;
+    left: 23px;
+    border-radius: 9px;
+    top: 10px;
+}
+
+.card-1 h3{
+    position: absolute;
+    color: black;
+   bottom: 6rem;
+   left: 5.4rem;
+   font-family: "Kanit", serif;
+}
+
+.card-1 p{
+    position: absolute;
+    color: black;
+   bottom: 4rem;
+   left: 1rem;
+   text-align: center;
+}
+
+.card-1 button{
+    position: absolute;
+    left: 4.3rem;
+    bottom: 1.2rem;
+    background-color: rgb(95, 0, 0);
+    padding: 0.5rem 2rem;
+}
+/* ______________________ */
+
+.card-2 img{
+    position: absolute;
+    width: 80%;
+    left: 23px;
+    border-radius: 9px;
+    top: 10px;
+}
+
+.card-2 h3{
+    position: absolute;
+    color: black;
+   bottom: 6rem;
+   left: 5.4rem;
+   font-family: "Kanit", serif;
+}
+
+.card-2 p{
+    position: absolute;
+    color: black;
+   bottom: 4rem;
+   left: 1.7rem;
+   text-align: center;
+}
+
+.card-2 button{
+    position: absolute;
+    left: 4.9rem;
+    bottom: 1.2rem;
+    background-color: rgb(95, 0, 0);
+    padding: 0.5rem 2rem;
+}
+/* ______________________ */
+
+.card-3 img{
+    position: absolute;
+    width: 80%;
+    left: 23px;
+    border-radius: 9px;
+    top: 20px;
+}
+
+.card-3 h3{
+    position: absolute;
+    color: black;
+   bottom: 6rem;
+   left: 5.4rem;
+   font-family: "Kanit", serif;
+}
+
+.card-3 p{
+    position: absolute;
+    color: black;
+   bottom: 4rem;
+   left: 1.7rem;
+   text-align: center;
+}
+
+.card-3 button{
+    position: absolute;
+    left: 4.9rem;
+    bottom: 1.2rem;
+    background-color: rgb(95, 0, 0);
+    padding: 0.5rem 2rem;
+}
+/* ______________________ */
+
+.card-4 img{
+    position: absolute;
+    width: 80%;
+    left: 23px;
+    border-radius: 9px;
+    top: 20px;
+}
+
+.card-4 h3{
+    position: absolute;
+    color: black;
+   bottom: 6rem;
+   left: 5rem;
+   font-family: "Kanit", serif;
+}
+
+.card-4 p{
+    position: absolute;
+    color: black;
+   bottom: 4rem;
+   left: 1.7rem;
+   text-align: center;
+}
+
+.card-4 button{
+    position: absolute;
+    left: 4.5rem;
+    bottom: 1.2rem;
+    background-color: rgb(95, 0, 0);
+    padding: 0.5rem 2rem;
+}
+/* ______________________ */
+
+.card-5 img{
+    position: absolute;
+    width: 80%;
+    left: 23px;
+    border-radius: 9px;
+    top: 20px;
+}
+
+.card-5 h3{
+    position: absolute;
+    color: black;
+   bottom: 6rem;
+   left: 5rem;
+   font-family: "Kanit", serif;
+}
+
+.card-5 p{
+    position: absolute;
+    color: black;
+   bottom: 4rem;
+   left: 1.7rem;
+   text-align: center;
+}
+
+.card-5 button{
+    position: absolute;
+    left: 4.5rem;
+    bottom: 1.2rem;
+    background-color: rgb(95, 0, 0);
+    padding: 0.5rem 2rem;
+}
+/* ______________________ */
+
+.card-6 img{
+    position: absolute;
+    width: 80%;
+    left: 23px;
+    border-radius: 9px;
+    top: 35px;
+}
+
+.card-6 h3{
+    position: absolute;
+    color: black;
+   bottom: 6rem;
+   left: 5rem;
+   font-family: "Kanit", serif;
+}
+
+.card-6 p{
+    position: absolute;
+    color: black;
+   bottom: 4rem;
+   left: 1.4rem;
+   text-align: center;
+}
+
+.card-6 button{
+    position: absolute;
+    left: 4.5rem;
+    bottom: 1.2rem;
+    background-color: rgb(95, 0, 0);
+    padding: 0.5rem 2rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+button:hover{
+    border-radius: 15px;
+    background-color: rgb(255, 0, 0);
+    
+}
+button{
+    transition: all linear 0.1s;
+    
+}
+
+/* ____________________________________________________________--- */
+
+.footer {
+  background-color: rgb(11, 0, 17);
+  height: 200px;
+}
+.hf {
+  color: rgb(255, 255, 255);
+  font-size: 2rem;
+  margin: 1rem;
+}
+
+.footer a {
+  display: flex;
+  flex-direction: column;
+  margin-left: 1.5rem;
+}
+
+@media (max-width: 605px) {
+  .footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: rgb(23, 0, 35);
+  }
+}
+
+/* _______________________________________________________ */
