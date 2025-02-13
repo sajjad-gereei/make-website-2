@@ -151,6 +151,9 @@
     transform: scale(1.2);
   }
 
+  main{
+    height: 63vh;
+  }
 
   /* ____________________________________________________________--- */
 
@@ -158,6 +161,7 @@
     background-color: rgb(0, 0, 0);
     height: 200px;
     margin-top: 12rem;
+    width: 100%;
   }
   .hf{
     color: rgb(255, 255, 255);

@@ -116,7 +116,10 @@
 }
 
 .card{
-    background-color: rgb(53, 0, 0);
+  background: rgba( 255, 255, 255, 0.25 );
+box-shadow: 150px 150px 150px 150px rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 10px );
+
     height: 350px;
     width: 250px;
     border-radius: 10px;
